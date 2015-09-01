@@ -1,0 +1,229 @@
+html, body  {
+	margin: 0;
+	padding: 0;
+}
+
+body  {
+	font-family: 'Iceland', cursive;
+	font-weight: 100;
+  background-image: url("links/subtlenet2.png");
+}
+
+.container  {
+	margin: 0 auto;
+	max-width: 940px;
+	padding: 0 10px;
+}
+
+.header {
+  background: url(links/aquila_grey.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 800px;
+  text-align: center;
+}
+
+.header .container  {
+	position: relative;
+	top: 200px;
+}
+
+.header h1  {
+	letter-spacing: .1em;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 500;
+	color: #fff;
+	line-height: 110px;
+	font-size: 80px;
+	margin-top: 0;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+	text-shadow: 0 0 0.8em black, 0 0 0.8em black;
+}
+
+@media (min-width:850px)  {
+	.header h1 {
+		font-size: 120px;
+  }
+}
+
+.header p {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 5px;
+	margin-bottom: 60px;
+	margin-top: 0;
+	text-transform: uppercase;
+	text-shadow: 0 0 0.8em black, 0 0 0.8em black;
+}
+
+.btn  {
+	color: #fff;
+	background: #000;
+	padding: 10px 40px;
+	text-decoration: none;
+	transition: background .5s;
+}
+
+.main a {
+  text-decoration: none;
+	color: #c10f0f;
+}
+
+.main a:hover {
+  text-decoration: none;
+	color: gray;
+}
+
+.nav  {
+	background: #000;
+	height: 80px;
+	width: 100%;
+}
+
+.nav ul {
+	height: 80px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.nav ul li  {
+	color: #fff;
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	list-style: none;
+	padding: 0 10px;
+	transition: background .5s;
+}
+
+.btn:hover, .nav ul li:hover  {
+	background: #c10f0f;
+	cursor: pointer;
+	transition: background .5s;
+}
+
+.main .container  {
+	margin: 80px auto;
+}
+
+.main img {
+	float: left;
+	margin: 0px 60px 70px 0;
+}
+
+.main img:hover {
+	float: left;
+}
+
+.jumbotron  {
+	background: url(links/head_1920x1080.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 600px;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 220px;
+}
+
+.jumbotron h2 {
+	color: #fff;
+	text-align: right;
+}
+
+.jumbotron p  {
+	color: #fff;
+	text-align: right;
+}
+
+.jumbotron .btn {
+	margin: 10px 0 0;
+	float: right;
+}
+
+.footer {
+	background: #000;
+	height: 80px;
+}
+
+.footer p {
+	color: #fff;
+	font-size: 14px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0;
+}
+
+@media (max-width: 500px) {
+  .header h1  {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
+
+.supporting			{
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.supporting .col	{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.supporting img		{
+	height: 70px;
+	/*border: 2px solid gray;
+	border-radius: 100%;*/
+}
+
+.supporting h2		{
+	font-weight: 600;
+	font-size: 23px;
+	text-transform: uppercase;
+}
+
+.supporting p		{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 50px;
+	margin-bottom: 40px;
+}
+
+.white_btn	a		{
+	color: #fff;
+	background: #000;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 1em;
+	border:0;
+	outline:none;
+}
+
+.white_btn a:hover	{
+	background: #c10f0f;
+	cursor: pointer;
+	transition: background .5s;
+}
+
+.clearfix			{
+	clear: both;
+}
